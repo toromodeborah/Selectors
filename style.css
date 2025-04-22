@@ -1,0 +1,40 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: greenyellow;
+    color: lavenderblush;
+}
+
+h1 {
+    color: lightblue;
+}
+
+a {
+    color: lightpink;
+}
+
+a:hover {
+    color: rgb(253, 165, 242);
+}
+
+ul>li {
+    font-weight: bold;
+}
+
+h1+p {
+    background-color: gold;
+    padding: 10px;
+    border: radius 5px;
+}
+
+ul li:hover {
+    color: khaki;
+}
+
+ul li::before {
+    content: "🪴🪴";
+}
+
+a::after {
+    content: "🪴🪴";
+
+}
